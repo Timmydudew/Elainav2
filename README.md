@@ -3,7 +3,7 @@
     <img src="https://wallpapercave.com/wp/wp9610520.jpg" width="610">
      
 </p>
-<h1 align="center"> Miku Nakano 
+<h1 align="center"> Elaina V2
 </h1>
 <p align="center"> 
   Konochiwa Senpai, I am "Elaina" a WhatsApp bot made by Ronen to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
