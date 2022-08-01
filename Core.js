@@ -1528,7 +1528,7 @@ if (isBanChat) return reply(mess.banChat)
 reply(` Don't forget to join yeah!
 
 *GROUP 1*
-https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS
+https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO
 
 *GROUP 2*
 https://chat.whatsapp.com/IF7HRsrHjFqIwThTiND3tN
