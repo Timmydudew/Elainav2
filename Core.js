@@ -1534,7 +1534,7 @@ https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS
 https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5
 
 *GROUP 3*
-https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd`)
+https://chat.whatsapp.com/GHlF8NjHRqDGgSvPLODeS9`)
 break
 case 'getsxvdxcmd': {
 if (isBan) return reply(mess.ban)	 			
