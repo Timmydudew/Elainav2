@@ -1531,7 +1531,7 @@ reply(` Don't forget to join yeah!
 https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS
 
 *GROUP 2*
-https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5
+https://chat.whatsapp.com/IF7HRsrHjFqIwThTiND3tN
 
 *GROUP 3*
 https://chat.whatsapp.com/GHlF8NjHRqDGgSvPLODeS9`)
