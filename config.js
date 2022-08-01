@@ -21,7 +21,7 @@ global.prefa = ['.']
 global.location = "Assam, India"
 global.reactmoji = "❤️"
 global.themeemoji = "💖"
-global.vidmenu = { url: 'https://c.tenor.com/YGuLegQWubwAAAPo/miku-nakano-gotoubun-no-hanayome.mp4' }
+global.vidmenu = { url: 'https://c.tenor.com/36P-Xu4XxRMAAAPo/elaina-anime.mp4' }
 global.websitex = "https://youtube.com/c/RonenAMVs"
 global.lolhuman = "KaysaS"
 
@@ -54,17 +54,17 @@ global.ntilink = []
 
 global.mess = {
     jobdone: 'Job done...',
-    useradmin: 'Sorry, only *Group Admins* can use this command *Baka*!',
+    useradmin: 'Only *Group Admins* can use this command *Baka*!',
     botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
     botowner: 'Only my *Owner* can use this command, Baka!',
     grouponly: 'This command is only made for *Groups*, Baka!',
     privateonly: 'This command is only made for *Private Chat*, Baka!',
     botonly: 'Only the *Bot itself* can use this command!',
-    waiting: 'Chotto Matte...',
-    nolink: 'Please provide me *link*, Baka!',
+    waiting: 'waitto...',
+    nolink: 'Provide me *link*, Baka!',
     error: 'An error occurd!',
-    banned: 'You are *Banned* fron using commands!',
-    bangc: 'This Group is *Banned* from using Commands!',
+    banned: 'You are *Banned* fron using commands! Ask Ronen to unban you',
+    bangc: 'This Group is *Banned* from using Commands! Ask Ronen to unban you',
     nonsfw: 'Dont be a pervert Baka! This is not a NSFW enabled group!'
     
 }
