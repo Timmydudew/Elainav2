@@ -26,14 +26,14 @@ console.log(color(figlet.textSync('Miku Bot MD', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nHello, I am Fantox, the main developer of this bot.\n\nThanks for using: Miku Bot','aqua'))
-console.log(color('\nYou can follow me on GitHub: FantoX001','aqua'))
+console.log(color('\nHello, I am Ronen, the main developer of this bot.\n\nThanks for using: Elaina Bot','aqua'))
+console.log(color('\nYou can follow me on GitHub: Ronen6999','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const Miku = MikuConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Miku by: Fantox','Safari','1.0.0'],
+        browser: ['Elaina V2 by: Ronen','Safari','1.0.0'],
         auth: state,
         version
     })
@@ -116,15 +116,15 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 Mikutext = `
 Hello @${WAuserName.split("@")[0]},
 
-I am *Miku Nakano*, Welcome to ${metadata.subject}.
+I am *Elaina V2*, Welcome to ${metadata.subject}.
 
 *Group Description:*
 ${metadata.desc}
 
-Press the button below to start using *MIKU*...`
+Press the button below to start using *ELAINA*...`
 
 let Mikubuttons = [
-    {buttonId: `-menu`, buttonText: {displayText: 'Use Miku'}, type: 1}
+    {buttonId: `-menu`, buttonText: {displayText: 'Use Elaina'}, type: 1}
     ]
     let buttonMessage = {
     jpegThumbnail:buffer,
@@ -141,13 +141,13 @@ Miku.sendMessage(anu.id, buttonMessage)
                     Mikutext = `
 Sayonara 👋, @${WAuserName.split("@")[0]},
 
-I hope you will come back soon, but we are not going to miss you though!
+Why did you even join if your were to leave~
 
-Just let him go and start using MIKU by pressing the button below...
+Just let him go and start using ELAINA by pressing the button below...
 `
 
 let Mikubuttons = [
-    {buttonId: `-menu`, buttonText: {displayText: 'Use Miku'}, type: 1}
+    {buttonId: `-menu`, buttonText: {displayText: 'Use Elaina'}, type: 1}
     ]
     let buttonMessage = {
     jpegThumbnail:buffer,
