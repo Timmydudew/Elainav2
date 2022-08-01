@@ -4466,9 +4466,9 @@ case 'bc': case 'broadcast': case 'bcall': {
 if (!isCreator) return replay(mess.botowner)
 if (!args.join(" ")) return replay(`Please enter some text to broadcast! \n\nExample : ${prefix + command} ${global.OwnerName}`)
 let anu = await store.chats.all().map(v => v.id)
-replay(`Send Broadcast To ${anu.length} Chat\nTime's up ${anu.length * 1.5} second`)
+replay(`Send Broadcast To ${anu.length} Chat\nTime's up ${anu.length * 30.5} second`)
 for (let yoi of anu) {
-await sleep(1500)
+await sleep(155500)
 let btn = [{
 quickReplyButton: {
 displayText: '✨Menu✨',
@@ -4480,7 +4480,7 @@ displayText: 'Bot Owner',
 id: '-owner'
 }
 }]
-let txt = `「 *${global.OwnerName}'s Broadcast* 」\n\n${text}`
+let txt = `「 *Elaina Broadcast* 」\n\n${text}`
 Miku.send5ButImg(yoi, txt, `${global.BotName}`, BotLogo, btn, Thumb)
 }
 replay('Broadcast Sent !')
