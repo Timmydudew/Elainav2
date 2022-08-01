@@ -1,6 +1,6 @@
 <p align="center">
    <a href="https://github.com/FantoX001">
-    <img src="https://c.tenor.com/NJVFjOYEcsIAAAAC/miku-gotoubun.gif" width="610">
+    <img src="https://wallpapercave.com/wp/wp9610520.jpg" width="610">
      
 </p>
 <h1 align="center"> Miku Nakano 
