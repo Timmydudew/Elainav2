@@ -22,7 +22,7 @@ global.location = "Assam, India"
 global.reactmoji = "❤️"
 global.themeemoji = "💖"
 global.vidmenu = { url: 'https://c.tenor.com/YGuLegQWubwAAAPo/miku-nakano-gotoubun-no-hanayome.mp4' }
-global.websitex = "https://github.com/Ronen6999"
+global.websitex = "https://youtube.com/c/RonenAMVs"
 global.lolhuman = "KaysaS"
 
 
