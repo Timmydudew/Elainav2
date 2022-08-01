@@ -1548,12 +1548,12 @@ break
 
 case 'support': case 'supportgc':
     
-    reply(`*My developer's group:* http://gg.gg/MikuSupport`)
+    reply(`*My developer's group:* https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO`)
     break
 
 case 'repo': case 'botrepo':
     
-    reply(`*My Source Code:* https://github.com/FantoX001/Miku-MD`)
+    reply(`*My Source Code:* https://github.com/Ronen6999/Elainav2`)
     break
 
 case 'nsfwmenu':
@@ -2854,7 +2854,7 @@ case 'togif': case 'getgif':{
  break
 
 
- case 'owner': case 'creator': case 'mod': case 'mods':{
+ case 'owner': case 'creator': case 'mod': case 'mods': case 'developer':{
     Miku.sendContact(m.chat, global.Owner, m)
     }
     break
@@ -4569,7 +4569,7 @@ Here's the list of my Commands.
 
 
  『  *${global.BotName}*  』
- Powered by: *Fantox*
+ Powered by: *Ronen*
 
  💖 To use any of these commands type 
  " *${prefix}<Command name>* ".
