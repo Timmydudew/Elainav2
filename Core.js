@@ -4496,13 +4496,13 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 
 ╭─「(づ￣ 3￣)づ」
-│🎗️ 𝕌𝕤𝕖𝕣: *${pushname}*
-│🎗️ ℕ𝕒𝕞𝕖: *Elaina V2✨*
-│🎗️ ℙ𝕣𝕖𝕗𝕚𝕩: *${prefix}*
-│🎗️ 𝕆𝕨𝕟𝕖𝕣: *${prefix}mod*
-│🎗️ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO
-│🎗️ *OFFICIAL YT* : https://youtube.com/c/RonenAMVs
-│🎗️ *IF YOU WANT TO ADD ELAINA V2 IN YOUR GROUP THEN TEXT THE MOD BY USING THE COMMAND ${prefix}mod*
+│⋊  𝕌𝕤𝕖𝕣: *${pushname}*
+│⋊  ℕ𝕒𝕞𝕖: *Elaina V2✨*
+│⋊  ℙ𝕣𝕖𝕗𝕚𝕩: *${prefix}*
+│⋊  𝕆𝕨𝕟𝕖𝕣: *${prefix}mod*
+│⋊  𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO
+│⋊  *OFFICIAL YT* : https://youtube.com/c/RonenAMVs
+│⋊  *IF YOU WANT TO ADD ELAINA V2 IN YOUR GROUP THEN TEXT THE MOD BY USING THE COMMAND ${prefix}mod*
 ╰────────────┈エライナ
 
 *DEVELOPED AND REVERSE ENGINEERED BY RONEN✨*
