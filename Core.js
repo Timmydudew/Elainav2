@@ -4502,7 +4502,7 @@ Here's the list of my Commands.
  
 
 
- *━━━━━━〈  Core  〉━━━━━━*
+ *━━━━━━〈  Main  〉━━━━━━*
 
 🔖 profile, help, delete, listgc, listpc, welcome, support, repo, script 
  
@@ -4512,7 +4512,7 @@ Here's the list of my Commands.
 
  *━━━━━━〈  Group  〉━━━━━━*
 
-🔖 promote, demote, revoke, remove, tagall, hidetag, groupsetting, grouplink, setgcpp, setname, setdesc, group, nsfw 
+🔖 promote, demote, revoke, remove, tagall, hidetag, groupsetting, grouplink, setgcpp, setname, setdesc, group
 
  *━━━━━━〈  Anti Link  〉━━━━━━*
  
@@ -4540,7 +4540,7 @@ Here's the list of my Commands.
 
  *━━━━━━〈  Weeb  〉━━━━━━*
 
-🔖 waifu, loli, neko, ppcouple, feed, foxgirl, feed, meow, tickle, wallpaper, coffee, animenom, waifu3, neko2, feed, meow, tickle, migumin, awoo, animewallpaper2, anime, manga
+🔖 waifu, loli, neko, ppcouple, feed, foxgirl, feed, meow, tickle, wallpaper, coffee, animenom, waifu3, neko2, feed, tickle, migumin, awoo, animewallpaper2, anime, manga
 
  *━━━━━━〈  Informative  〉━━━━━━*
 
