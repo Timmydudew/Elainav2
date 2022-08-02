@@ -39,7 +39,7 @@
 </a>
 #### ✧ Next download that `session.json` file and replace it with the older one present the hompage of your [`Fork`](https://github.com/Ronen6999/Elainav2/fork).
 
-#### ✧ After that edit the `README.md` file and change the template link present on line no:`39` with your forked repo link.(Example: `https://github.com/<your GitHub username>/Miku-MD`)
+#### ✧ After that edit the `README.md` file and change the template link present on line no:`39` with your forked repo link.(Example: `https://github.com/<your GitHub username>/Elainav2`)
 
 #### ✧ Next
 
@@ -123,6 +123,4 @@ npm start
      
 ## Credits and Appreciation:
 
--   `Adiwajshing` sir for [Baileys](https://github.com/adiwajshing/baileys).
--   `Arus~Bots` team for [Mizuhara](https://github.com/Arus-Bots/Mizuhara).
--   `Xeon` for [Cheems](https://github.com/DGXeon/CheemsBot-MD2).
+-   `Fantox` sir for [Script](https://github.com/FantoX001/Miku-MD).
