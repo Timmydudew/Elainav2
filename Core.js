@@ -2554,7 +2554,7 @@ if (isBanChat) return reply(mess.bangc)
      let buttonMessage = {
      image: BotLogo,
      jpegThumbnail: Thumb,
-     caption: `*「 ${global.BotName} 」*\n\n----⚠️[Rules]⚠️----*_\n\n❌ *RULES SHOULD BE FOLLOWED STRICTLY* 🚫\n*>>>* use .support to get the Official group link in your dm\n*--->Don't chat in private bot can't chat in Pm\n*--->* If you want to add Elaina V2 in your group then contact the owner by owner/mods \n*--->* Dont use wrong command, use the command given in the *help list* \n*--->* Dont spam the bot with commands if the bot is not responding, it means the bot is maybe offline or facing internet issue. \n*--->* Dont Dm the bot \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BAN SOON* 🚫:`,
+     caption: `*「 ${global.BotName} 」*\n\n*----⚠️[Rules]⚠️----*_\n\n❌ *RULES SHOULD BE FOLLOWED STRICTLY* 🚫\n*>>>* use .support to get the Official group link in your dm\n*--->* Don't chat in private bot can't chat in Pm\n*--->* If you want to add Elaina V2 in your group then contact the owner by owner/mods \n*--->* Dont use wrong command, use the command given in the *help list* \n*--->* Dont spam the bot with commands if the bot is not responding, it means the bot is maybe offline or facing internet issue. \n*--->* Dont Dm the bot \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BAN SOON* 🚫:`,
      footer: `${BotName}`,
      buttons: buttons,
      headerType: 4
@@ -4504,7 +4504,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 │⋊ *IF YOU WANT TO ADD ELAINA V2 IN YOUR GROUP THEN TEXT THE MOD BY USING THE COMMAND ${prefix}mod*
 ╰────────────┈エライナ
 
-*DEVELOPED AND REVERSE ENGENDERED BY RONEN✨*
+*DEVELOPED AND REVERSE ENGINEERED BY RONEN✨*
 
 Here's the list of my Commands💕.
  
