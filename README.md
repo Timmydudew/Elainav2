@@ -6,10 +6,10 @@
 <h1 align="center"> Elaina V2
 </h1>
 <p align="center"> 
-  Konochiwa Senpai, I am "Elaina" a WhatsApp bot made by Ronen to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+  Konochiwa Senpai, I am "Elaina" a WhatsApp bot reverse engineered by Ronen (Thanks to Fantox for the main Script) to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
 
 <p align="center">
-  <a href="https://github.com/FantoX001/Miku-MD/fork">
+  <a href="https://github.com/Ronen6999/Elainav2/fork">
     <img src="https://img.shields.io/github/forks/FantoX001/Miku-MD?label=Fork&style=social">
     
     
@@ -18,11 +18,11 @@
   </a>
 
 <p align="center">
-  <a href="https://github.com/FantoX001/Miku-MD">
+  <a href="https://github.com/Ronen6999/Elainav2">
     <img src="https://visitor-badge.glitch.me/badge?page_id=https://github.com/FantoX001/Miku-MD.visitor-badge&left_text=Total%20Repo%20Visits">
     
     
-<a href="https://github.com/FantoX001">
+<a href="https://github.com/Ronen6999">
     <img src="(https://visitor-badge.glitch.me/badge?page_id=https://github.com/FantoX001/Shikimori-MD.visitor-badge&left_text=Total%20Repo%20Visitors)">
   </a>
 </br>
@@ -77,7 +77,7 @@ heroku/nodejs
 
 ## Join My Whatsapp Group for Support
 
-<a href="https://chat.whatsapp.com/JcBzjRIxM5UHfuJbt0KrWt"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </a>
 
 ## Physical Deployment Method ( Untested! )
@@ -117,7 +117,7 @@ npm start
 
 
 ## Help:
-- [`Follow`](https://github.com/FantoX001/#follow) me on GitHub to make me feel motivated.
+- [`Follow`](https://github.com/Ronen6999/#follow) me on GitHub to make me feel motivated.
 - Give my project a ⭐ if you liked it.
 
      
