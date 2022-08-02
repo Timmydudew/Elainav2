@@ -4495,48 +4495,48 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
  const helpmenu = `Konichiwa *${pushname}* Senpai,
 
 
-╭─「」
+╭─「(づ￣ 3￣)づ」
 │⋊ 𝕌𝕤𝕖𝕣: *${pushname}*
 │⋊ ℕ𝕒𝕞𝕖: *Elaina V2*
 │⋊ ℙ𝕣𝕖𝕗𝕚𝕩: *${prefix}*
 │⋊ 𝕆𝕨𝕟𝕖𝕣: *${prefix}mod*
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: http://gg.gg/Piku-and-yotsuba-support
-╰────────────┈平和  
+│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO
+╰────────────┈エライナ
 
 
 Here's the list of my Commands💕.
  
 
 
- *━━━━━━〈  Main  〉━━━━━━*
+ 『 Main  〉━━━━━━*
 
 🔖 profile, help, delete, listgc, listpc, welcome, support, repo, script 
  
- *━━━━━━〈  Owner  〉━━━━━━*
+ 『 Owner  〉━━━━━━*
 
 🔖 self, public, ban, bangroup, bye, join, bye, block, unblock, broadcast 
 
- *━━━━━━〈  Group  〉━━━━━━*
+ 『 Group  〉━━━━━━*
 
 🔖 promote, demote, revoke, remove, tagall, hidetag, groupsetting, grouplink, setgcpp, setname, setdesc, group
 
- *━━━━━━〈  Anti Link  〉━━━━━━*
+ 『 Anti Link  〉━━━━━━*
  
 🔖 antilinkgc, antilinktg, antilinktt, antilinkytch, antilinkytvid, antilinkig, antilinkfb, antilinktwit, antilinkall, antiwame
 
- *━━━━━━〈  Search  〉━━━━━━*
+ 『 Search  〉━━━━━━*
 
 🔖 play, song, yts, lyrics, google, playstore, gimage, pinterest, image, movie, wallpaper, searchgc, happymod, wikimedia, ringtone, anime, animestory, manga, ringtone   
 
- *━━━━━━〈  Convert  〉━━━━━━*
+ 『 Convert  〉━━━━━━*
 
 🔖 sticker, toimg, tovideo, togif , steal, stickermeme, emojimix, tourl, tomp3, toaudio
 
- *━━━━━━〈  Audio  〉━━━━━━*
+ 『 Audio  〉━━━━━━*
 
 🔖 bass, tempo, blown, deep, earrape, fast, fat, nightcore, reverse, robot, slow, squirrel
 
- *━━━━━━〈  Reactions  〉━━━━━━*
+ 『 Reactions  〉━━━━━━*
 
 🔖 bonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe
 
