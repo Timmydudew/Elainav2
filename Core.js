@@ -2536,7 +2536,7 @@ if (isBanChat) return reply(mess.bangc)
     break
 
 
-    case 'group': case 'grup': {
+    case 'rule': case 'rules': {
         if (isBan) return reply(mess.banned)	 			
      if (isBanChat) return reply(mess.bangc)
      if (!m.isGroup) return replay(mess.grouponly)
@@ -2548,13 +2548,13 @@ if (isBanChat) return reply(mess.bangc)
      await Miku.groupSettingUpdate(m.chat, 'not_announcement').then((res) => replay(`Group has been opened!`)).catch((err) => replay(jsonformat(err)))
      } else {
      let buttons = [
-     { buttonId: '-group open', buttonText: { displayText: 'Open' }, type: 1 },
-     { buttonId: '-group close', buttonText: { displayText: 'Close' }, type: 1 }
+     { buttonId: '-group open', buttonText: { displayText: 'Ok' }, type: 1 },
+     { buttonId: '-group close', buttonText: { displayText: '💖' }, type: 1 }
      ]
      let buttonMessage = {
      image: BotLogo,
      jpegThumbnail: Thumb,
-     caption: `*「 ${global.BotName} 」*\n\n_Group Setting Changer tool_:`,
+     caption: `*「 ${global.BotName} 」*\n\n----⚠️[Rules]⚠️----*_\n\n❌ *RULES SHOULD BE FOLLOWED STRICTLY* 🚫\n*>>>* use .support to get the Official group link in your dm\n*--->Don't chat in private bot can't chat in Pm\n*--->* If you want to add Elaina V2 in your group then contact the owner by owner/mods \n*--->* Dont use wrong command, use the command given in the *help list* \n*--->* Dont spam the bot with commands if the bot is not responding, it means the bot is maybe offline or facing internet issue. \n*--->* Dont Dm the bot \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BAN SOON* 🚫:`,
      footer: `${BotName}`,
      buttons: buttons,
      headerType: 4
@@ -4513,7 +4513,7 @@ Here's the list of my Commands💕.
  『 Main 』
 
 
-🔖 profile, help, delete, listgc, listpc, welcome, support, repo, script 
+🔖 profile, help, rules, delete, listgc, listpc, welcome, support, repo, script 
  
  『 Owner 』
 
@@ -4521,7 +4521,7 @@ Here's the list of my Commands💕.
 
  『 Group 』
 
-🔖 promote, demote, revoke, remove, tagall, hidetag, groupsetting, grouplink, setgcpp, setname, setdesc, group
+🔖 promote, demote, revoke, remove, tagall, hidetag, groupsetting, grouplink, setgcpp, setname, setdesc
 
  『 Anti Link 』
  
