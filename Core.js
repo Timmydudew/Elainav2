@@ -4508,7 +4508,8 @@ Here's the list of my Commands💕.
  
 
 
- 『 Main  〉━━━━━━*
+ 『 Main  〉*
+
 
 🔖 profile, help, delete, listgc, listpc, welcome, support, repo, script 
  
@@ -4540,31 +4541,31 @@ Here's the list of my Commands💕.
 
 🔖 bonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe
 
- *━━━━━━〈  Downloader  〉━━━━━━*
+ 『 Downloader  〉━━━━━━*
 
 🔖 play, ytmp3, ytmp4, ytvideo, mediafire, instagram, igtv, facebook, fbmp3, twitter, twittermp3, tiktok, tiktokaudio, tiktoknowm, mediafire  
 
- *━━━━━━〈  Weeb  〉━━━━━━*
+ 『 Weeb  〉━━━━━━*
 
 🔖 waifu, loli, neko, ppcouple, feed, foxgirl, feed, meow, tickle, wallpaper, coffee, animenom, waifu3, neko2, feed, tickle, migumin, awoo, animewallpaper2, anime, manga
 
- *━━━━━━〈  Informative  〉━━━━━━*
+ 『 Informative  〉━━━━━━*
 
 🔖 animequote, quote, covid, earthquake, wiki
 
- *━━━━━━〈  Others  〉━━━━━━*
+ 『 Others  〉━━━━━━*
 
 🔖 stickermeme, quotes, darkjoke 
 
- *━━━━━━〈  Fun  〉━━━━━━*
+ 『 Fun  〉━━━━━━*
 
 🔖 truth, dare, couple, soulmate, handsomecheck, beautifulcheck, awesomecheck, greatcheck, gaycheck, cutecheck, lesbiancheck, hornycheck, prettycheck, lovelycheck, uglycheck, charactercheck
 
- *━━━━━━〈  Essentials  〉━━━━━━*
+ 『 Essentials  〉━━━━━━*
 
 🔖 translate, fliptext, toletter
 
- *━━━━━━〈  NSFW  〉━━━━━━*
+『 NSFW  〉━━━━━━*
 
 💖 Type " *${prefix}nsfw* " then enable NSFW (Admin only!) 
 
