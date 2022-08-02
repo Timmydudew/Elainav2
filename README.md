@@ -100,7 +100,7 @@ npm start
 ## License and recode Permission:
 - Well, it's the most asked question !
 - And the answer is `"Permission is hereby granted for 100% modification/recode."`
-- And this project comes under [`MIT`](https://github.com/FantoX001/Miku-MD/blob/main/LICENSE.md) lincense.
+- And this project comes under [`MIT`](https://github.com/Ronen6999/Elainav2/blob/main/LICENSE.md)) lincense.
 - Please at least [`Follow`](https://github.com/FantoX001/#follow) me on GitHub to show some appreciation.
    
    
