@@ -2549,8 +2549,8 @@ if (isBanChat) return reply(mess.bangc)
      await Miku.groupSettingUpdate(m.chat, 'not_announcement').then((res) => replay(`Group has been opened!`)).catch((err) => replay(jsonformat(err)))
      } else {
      let buttons = [
-     { buttonId: '.group open', buttonText: { displayText: 'Ok' }, type: 1 },
-     { buttonId: '.group close', buttonText: { displayText: '💖' }, type: 1 }
+     { buttonId: '.group open', buttonText: { displayText: 'open' }, type: 1 },
+     { buttonId: '.group close', buttonText: { displayText: 'close' }, type: 1 }
      ]
      let buttonMessage = {
      image: BotLogo,
