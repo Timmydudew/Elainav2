@@ -3749,7 +3749,7 @@ case 'charactercheck':
          "shout you bastard in front of your mom/papa",
          "change the name to i am idiot for 24 hours",
          "slap urself firmly and send the sound of slap through voice note😂",
-         "say i love the bot owner Fantox through voice note",
+         "say i love the bot owner Ronen through voice note",
          "send your gf/bf pic here",
          "make any tiktok dance challenge video and put it on status, u can delete it after 5hrs",
          "breakup with your best friend for 5hrs without telling him/her that its a dare",
@@ -3762,7 +3762,7 @@ case 'charactercheck':
           "send abusive words in any grup, excepting this grup, and send screenshot proof here"
      ]
                    const Mikudareww = dare[Math.floor(Math.random() * dare.length)]
-                   buffer = await getBuffer(`https://wallpapercave.com/wp/wp10524609.jpg`)
+                   buffer = await getBuffer(`https://wallpapercave.com/uwp/uwp2150035.jpeg`)
                    Miku.sendMessage(from, { image: buffer, caption: '*You have chosen Dare*\n\n'+ Mikudareww }, {quoted:m})
                    break
                        
@@ -3841,7 +3841,7 @@ case 'truth':
                  "Mention the incident that makes you hurt that you still remember",
                  "what achievements have you got this year?",
                  "what was your worst habit at school?",
-                 "do you love the bot creator Fantox?",
+                 "do you love the bot creator Ronen?",
                  "have you ever thought of taking revenge from ur teacher?",
                  "do you like current prime minister of ur country",
                  "you non veg or veg",
@@ -3859,10 +3859,10 @@ case 'truth':
                  "What is the biggest lie you ever told your parents",
                  "Who is your celebrity crush",
                  "Whats the strangest dream you have ever had",
-                 "do you play pubg, if you then send ur id number"
+                 "do you use Instagram?, if yes then send ur insta id"
              ]
                            const mikutruthww = truth[Math.floor(Math.random() * truth.length)]
-                           buffer = await getBuffer(`https://wallpapercave.com/wp/wp10524609.jpg`)
+                           buffer = await getBuffer(`https://wallpapercave.com/uwp/uwp2150035.jpeg`)
                            Miku.sendMessage(from, { image: buffer, caption: '*You have chosen Truth*\n'+ mikutruthww }, {quoted:m})
                            break
 
