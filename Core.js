@@ -4466,9 +4466,9 @@ case 'bc': case 'broadcast': case 'bcall': {
 if (!isCreator) return replay(mess.botowner)
 if (!args.join(" ")) return replay(`Please enter some text to broadcast! \n\nExample : ${prefix + command} ${global.OwnerName}`)
 let anu = await store.chats.all().map(v => v.id)
-replay(`Send Broadcast To ${anu.length} Chat\nTime's up ${anu.length * 30.5} second`)
+replay(`Send Broadcast To ${anu.length} Chat\nTime's up ${anu.length * 1.5} second`)
 for (let yoi of anu) {
-await sleep(155500)
+await sleep(1500)
 let btn = [{
 quickReplyButton: {
 displayText: '✨Menu✨',
@@ -4496,12 +4496,13 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 
 ╭─「(づ￣ 3￣)づ」
-│⋊ 𝕌𝕤𝕖𝕣: *${pushname}*
-│⋊ ℕ𝕒𝕞𝕖: *Elaina V2*
-│⋊ ℙ𝕣𝕖𝕗𝕚𝕩: *${prefix}*
-│⋊ 𝕆𝕨𝕟𝕖𝕣: *${prefix}mod*
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO
-│⋊ *IF YOU WANT TO ADD ELAINA V2 IN YOUR GROUP THEN TEXT THE MOD BY USING THE COMMAND ${prefix}mod*
+│🎗️ 𝕌𝕤𝕖𝕣: *${pushname}*
+│🎗️ ℕ𝕒𝕞𝕖: *Elaina V2✨*
+│🎗️ ℙ𝕣𝕖𝕗𝕚𝕩: *${prefix}*
+│🎗️ 𝕆𝕨𝕟𝕖𝕣: *${prefix}mod*
+│🎗️ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO
+│🎗️ *OFFICIAL YT* : https://youtube.com/c/RonenAMVs
+│🎗️ *IF YOU WANT TO ADD ELAINA V2 IN YOUR GROUP THEN TEXT THE MOD BY USING THE COMMAND ${prefix}mod*
 ╰────────────┈エライナ
 
 *DEVELOPED AND REVERSE ENGINEERED BY RONEN✨*
