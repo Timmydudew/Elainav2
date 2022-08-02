@@ -4543,7 +4543,7 @@ Here's the list of my Commands💕.
 
 
  『 Reactions 』
-🔖 bonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe
+🔖 cuddle, hug, kiss, pat, smug, slap
 
  
  『 Downloader 』
