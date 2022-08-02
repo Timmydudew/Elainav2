@@ -1422,7 +1422,7 @@ switch(command) {
     if (isBanChat) return reply(mess.bangc)
     teks = `*${global.BotName}*\n\n*----⚠️[Rules]⚠️----*\n\n❌ *RULES SHOULD BE FOLLOWED STRICTLY* 🚫\n*>>>* use *.support* to get the Official group link in your dm\n*--->* Don't chat in private bot can't chat in Pm\n*--->* If you want to add Elaina V2 in your group then contact the owner by owner/mods \n*--->* Dont use wrong command, use the command given in the *help list* \n*--->* Dont spam the bot with commands if the bot is not responding, it means the bot is maybe offline or facing internet issue. \n*--->* Dont Dm the bot \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BAN SOON* 🚫 `
     let buttons = [
-    {buttonId: `.menu`, buttonText: {displayText: '✨OK✨'}, type: 1}
+    {buttonId: `.menu`, buttonText: {displayText: '🎗️Menu🎗️'}, type: 1}
     ]
     let buttonMessage = {
     image: Thumb,
@@ -1673,7 +1673,7 @@ case 'quotesanime': case 'quoteanime': case 'animequote': case 'animequotes':{
         ]
         let buttonMessage = {
             text: `_${result.quotes}_\n\nBy '${result.karakter}', ${result.anime}\n\n- ${result.up_at}`,
-            footer: 'Miku',
+            footer: 'Elaina V2',
             buttons: buttons,
             headerType: 2
         }
@@ -2904,7 +2904,7 @@ case 'google': case 'search': {
  if (!args[0]) return reply(`Example: ${prefix + command} <query>\nUses : ${prefix + command} apa arti cinta`)
  let google = require('google-it')
  google({'query': args.join(" ")}).then(res => {
- let teks = `「 *Google Search Engine* 」\n\n*Search term:* ${text}\n\n\n`
+ let teks = `「 *Google by Elaina V2* 」\n\n*Search term:* ${text}\n\n\n`
  for (let g of res) {
  teks += `*Title* : ${g.title}\n\n`
  teks += `*Description* : ${g.snippet}\n\n`
@@ -3085,7 +3085,7 @@ case 'twddlxx': {
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
  let buttons = [
- {buttonId: `.menu`, buttonText: {displayText: '✨Menu✨'}, type: 1}
+ {buttonId: `.menu`, buttonText: {displayText: '💖Menu💖'}, type: 1}
  ]
  let buttonMessage = {
  video: {url:args[0]},
@@ -3170,7 +3170,7 @@ case 'fbddlxx': {
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
  let buttons = [
- {buttonId: `.menu`, buttonText: {displayText: '✨Menu✨'}, type: 1}
+ {buttonId: `.menu`, buttonText: {displayText: '💖Menu💖'}, type: 1}
  ]
  let buttonMessage = {
  video: {url:args[0]},
@@ -3255,8 +3255,8 @@ case 'play2': case 'ytplay2': {
     let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
     let ytvc = await hx.youtube(anu.url)
     let buttons = [
-    {buttonId: `.ytmp4 ${anu.url}`, buttonText: {displayText: '► Video'}, type: 1},
-    {buttonId: `.ytmp3 ${anu.url}`, buttonText: {displayText: '♫ Audio'}, type: 1}
+    {buttonId: `.ytmp4 ${anu.url}`, buttonText: {displayText: '🎥 Video'}, type: 1},
+    {buttonId: `.ytmp3 ${anu.url}`, buttonText: {displayText: '🎵 Audio'}, type: 1}
                     ]
                     let buttonMessage = {
                         image: { url: anu.thumbnail},
@@ -3291,8 +3291,8 @@ Size : ${res.size}
 Quality : ${res.quality}
 _Select video or audio and wait a while_`
 let buttons = [
-{buttonId: `-ytmp4 ${res.link}`, buttonText: {displayText: '► Video'}, type: 1},
-{buttonId: `-ytmp3 ${res.link}`, buttonText: {displayText: '♫ Audio'}, type: 1}
+{buttonId: `-ytmp4 ${res.link}`, buttonText: {displayText: '🎥 Video'}, type: 1},
+{buttonId: `-ytmp3 ${res.link}`, buttonText: {displayText: '🎵 Audio'}, type: 1}
 ]
 let buttonMessage = {
 image: {url:res.thumb},
