@@ -4494,11 +4494,17 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
       
  const helpmenu = `Konichiwa *${pushname}* Senpai,
 
-I am *Elaina V2*, a bot developed by Ronen.
 
-🔖 My prefix is:  ${prefix}
+╭─「」
+│⋊ 𝕌𝕤𝕖𝕣: *${pushname}*
+│⋊ ℕ𝕒𝕞𝕖: *Elaina V2*
+│⋊ ℙ𝕣𝕖𝕗𝕚𝕩: *${prefix}*
+│⋊ 𝕆𝕨𝕟𝕖𝕣: *${prefix}mod*
+│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: http://gg.gg/Piku-and-yotsuba-support
+╰────────────┈平和  
 
-Here's the list of my Commands.
+
+Here's the list of my Commands💕.
  
 
 
