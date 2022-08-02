@@ -4504,13 +4504,13 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 │⋊ *IF YOU WANT TO ADD ELAINA V2 IN YOUR GROUP THEN TEXT THE MOD BY USING THE COMMAND ${prefix}mod*
 ╰────────────┈エライナ
 
-*DEVELOPED AND RE ENGENDERED BY RONEN*
+*DEVELOPED AND REVERSE ENGENDERED BY RONEN✨*
 
 Here's the list of my Commands💕.
  
 
 
- 『 Main  〉*
+ 『 Main 』
 
 
 🔖 profile, help, delete, listgc, listpc, welcome, support, repo, script 
