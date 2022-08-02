@@ -1758,6 +1758,7 @@ sections
 }
 break
 
+/* Fixed Anime search issue
 
 case 'animesearchxxx': case 'anime':{
     await fetchJson(`https://api.jikan.moe/v4/anime/${q}`)
@@ -1767,7 +1768,7 @@ case 'animesearchxxx': case 'anime':{
     })
     }
     break
-
+*/
 
 case 'coffee': case 'kopi': {
         if (isBan) return reply(mess.banned)	 			
