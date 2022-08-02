@@ -1420,7 +1420,7 @@ switch(command) {
     case 'rules': case 'rule': case 'r': {
         if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
-    teks = `*${global.BotName}\n\n*----⚠️[Rules]⚠️----*\n\n❌ *RULES SHOULD BE FOLLOWED STRICTLY* 🚫\n*>>>* use *.support* to get the Official group link in your dm\n*--->* Don't chat in private bot can't chat in Pm\n*--->* If you want to add Elaina V2 in your group then contact the owner by owner/mods \n*--->* Dont use wrong command, use the command given in the *help list* \n*--->* Dont spam the bot with commands if the bot is not responding, it means the bot is maybe offline or facing internet issue. \n*--->* Dont Dm the bot \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BAN SOON* 🚫 `
+    teks = `*${global.BotName}*\n\n*----⚠️[Rules]⚠️----*\n\n❌ *RULES SHOULD BE FOLLOWED STRICTLY* 🚫\n*>>>* use *.support* to get the Official group link in your dm\n*--->* Don't chat in private bot can't chat in Pm\n*--->* If you want to add Elaina V2 in your group then contact the owner by owner/mods \n*--->* Dont use wrong command, use the command given in the *help list* \n*--->* Dont spam the bot with commands if the bot is not responding, it means the bot is maybe offline or facing internet issue. \n*--->* Dont Dm the bot \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BAN SOON* 🚫 `
     let buttons = [
     {buttonId: `-menu`, buttonText: {displayText: '✨OK✨'}, type: 1}
     ]
@@ -4511,61 +4511,61 @@ Here's the list of my Commands💕.
  
 
 
+ 
+
  『 General 』
-
-
 🔖 profile, help, rules, delete, listgc, listpc, welcome, support, repo
  
+ 
  『 Owner 』
-
 🔖 self, public, ban, bangroup, bye, join, bye, block, unblock, broadcast 
 
+ 
  『 Group 』
-
 🔖 promote, demote, revoke, remove, tagall, hidetag, groupsetting, grouplink, setgcpp, setname, setdesc, group
 
+
  『 Anti Link 』
- 
 🔖 antilinkgc, antilinktg, antilinktt, antilinkytch, antilinkytvid, antilinkig, antilinkfb, antilinktwit, antilinkall, antiwame
 
- 『 Search 』
 
+ 『 Searches 』
 🔖 play, song, yts, lyrics, google, playstore, gimage, pinterest, image, movie, wallpaper, searchgc, happymod, wikimedia, ringtone, anime, animestory, manga, ringtone   
 
+ 
  『 Convert 』
-
 🔖 sticker, toimg, tovideo, togif , steal, stickermeme, emojimix, tourl, tomp3, toaudio
 
- 『 Audio 』
 
+ 『 Audio 』
 🔖 bass, tempo, blown, deep, earrape, fast, fat, nightcore, reverse, robot, slow, squirrel
 
- 『 Reactions 』
 
+ 『 Reactions 』
 🔖 bonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe
 
+ 
  『 Downloader 』
-
 🔖 play, ytmp3, ytmp4, ytvideo, mediafire, instagram, igtv, facebook, fbmp3, twitter, twittermp3, tiktok, tiktokaudio, tiktoknowm, mediafire  
 
+ 
  『 Weeb 』
-
 🔖 waifu, loli, neko, ppcouple, feed, foxgirl, feed, meow, tickle, wallpaper, coffee, animenom, waifu3, neko2, feed, tickle, migumin, awoo, animewallpaper2, anime, manga
 
+ 
  『 Informative 』
-
 🔖 animequote, quote, covid, earthquake, wiki
 
+ 
  『 Others 』
-
 🔖 stickermeme, quotes, darkjoke 
 
+ 
  『 Fun 』
-
 🔖 truth, dare, couple, soulmate, handsomecheck, beautifulcheck, awesomecheck, greatcheck, gaycheck, cutecheck, lesbiancheck, hornycheck, prettycheck, lovelycheck, uglycheck, charactercheck
 
+ 
  『 Essentials 』
-
 🔖 translate, fliptext, toletter
 
 『 NSFW 』
