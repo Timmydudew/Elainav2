@@ -4175,7 +4175,7 @@ case 'cringe': case 'cuddle': case 'highfive': case 'handhold': case 'kick':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
     if (!m.isGroup) return replay(mess.grouponly)						
-resggh = await axios.get(`https://nekos.life/api/v2/img/${command}`)         
+resggh = await axios.get(`https://api.waifu.pics/sfw/${command}`)         
 let resffj = await getBuffer(resggh.data.url)
 let resmain = await GIFBufferToVideoBuffer(resffj)   
       await Miku.sendMessage(m.chat,{video: resmain, gifPlayback:true},{ quoted:m }).catch(err => {
