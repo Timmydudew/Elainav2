@@ -1546,7 +1546,7 @@ Miku.sendMessage(from, {sticker:{url:"https://ZackMiku.github.io/media/groupclos
 break
 
 
-case 'support': case 'supportgc':
+case 'reaction': case 'r':
     
     reply(`*My developer's group:* https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO`)
     break
@@ -4509,7 +4509,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 Here's the list of my Commands💕.
 
  『 General 』
-🔖 profile, help, rules, delete, listgc, listpc, welcome, support, repo
+🔖 profile, help, rules, delete, listgc, listpc, welcome, reaction, repo
 
  『 Owner 』
 🔖 self, public, ban, bangroup, bye, join, bye, block, unblock, broadcast 
@@ -4529,9 +4529,6 @@ Here's the list of my Commands💕.
  『 Audio 』
 🔖 bass, tempo, blown, deep, earrape, fast, fat, nightcore, reverse, robot, slow, squirrel
 
- 『 Reactions 』
-🔖 cuddle, hug, kiss, pat, smug, slap
- 
  『 Downloader 』
 🔖 play, ytmp3, ytmp4, ytvideo, mediafire, instagram, igtv, facebook, fbmp3, twitter, twittermp3, tiktok, tiktokaudio, tiktoknowm, mediafire  
 
