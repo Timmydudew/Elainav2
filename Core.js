@@ -4493,10 +4493,8 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
       
- const helpmenu = `Konichiwa *${pushname}* Senpai,
-
-
-╭─「(づ￣ 3￣)づ」
+ const helpmenu =
+`╭─「(づ￣ 3￣)づ」
 │⋊  𝕌𝕤𝕖𝕣: *${pushname}*
 │⋊  ℕ𝕒𝕞𝕖: *Elaina V2✨*
 │⋊  ℙ𝕣𝕖𝕗𝕚𝕩: *${prefix}*
