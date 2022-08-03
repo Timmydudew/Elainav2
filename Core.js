@@ -1548,7 +1548,7 @@ break
 
 case 'reaction': case 'r':
     
-    reply(`cry,\n\nkiss,\n\nbully,\n\nhug,\n\nlick,\n\ncuddle,\n\npat, smug, highfive, bonk, blush, wave, smile, handhold, nom, bite, glomp, kill, slap, cringe, kick, wink, happy, poke, dance`)
+    reply(`cry,\n\nkiss,\n\nbully,\n\nhug,\n\nlick,\n\ncuddle,\n\npat,\n\nsmug,\n\nhighfive,\n\nbonk,\n\nblush,\n\nwave,\n\nsmile, handhold, nom, bite, glomp, kill, slap, cringe, kick, wink, happy, poke, dance`)
     break\n\n
 
 case 'repo': case 'botrepo':
