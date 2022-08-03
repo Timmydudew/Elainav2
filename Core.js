@@ -4166,7 +4166,7 @@ reply(mess.waiting)
                 })
 break
 
-
+/*
 case 'cry': case 'kill': case 'hug': case 'pat': case 'lick': case 'kiss': case 'bite': case 'yeet':
 case 'bully': case 'bonk': case 'wink': case 'poke': case 'nom': case 'slap': case 'smile':
 case 'wave': case 'blush': case 'smug': case 'glomp': case 'happy': case 'dance':
@@ -4183,9 +4183,241 @@ let resmain = await GIFBufferToVideoBuffer(resffj)
                                   })
 break
 
+*/
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////		
+		
+case 'cry':  case 'handhold':{
+
+    if (isBan) return reply(mess.banned)	 			
+    if (isBanChat) return reply(mess.bangc)
+    if (!m.isGroup) return replay(mess.grouponly)	
+	var pat = await fetchJson(`https://api.waifu.pics/sfw/${command}`)
+	try {
+		let messsender = m.sender
+let musers=``
+try {
+users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+
+ ment=[messsender,users]
+} catch {
+	users == "none"
+	 ment=[messsender,m.sender]
+}
+if(users == "none"){
+     musers =`@${m.sender.split("@")[0]} ${command}ed with themself!`
+     console.log(musers)
+
+} else {
+const rcpp =`@${users.split("@"[0])}`
+ musers= `@${m.sender.split("@")[0]} ${command}ed with @${users.split("@")[0]} `
+
+console.log(musers)
+}
+        const response = await axios.get(pat.url,  { responseType: 'arraybuffer' })
+        const buffer = Buffer.from(response.data, "utf-8")
+		var fetchedgif = await GIFBufferToVideoBuffer(buffer)
+		Miku.sendMessage(m.chat,{video: fetchedgif, gifPlayback:true,mentions:ment,caption:musers},{quoted:m})
+    } catch (error) {
+        console.log(error);
+    }
+}
+break
+
+case 'nom':{
+
+    if (isBan) return reply(mess.banned)	 			
+    if (isBanChat) return reply(mess.bangc)
+    if (!m.isGroup) return replay(mess.grouponly)	
+	var pat = await fetchJson(`https://api.waifu.pics/sfw/${command}`)
+	try {
+		let messsender = m.sender
+let musers=``
+try {
+users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+
+ ment=[messsender,users]
+} catch {
+	users == "none"
+	 ment=[messsender,m.sender]
+}
+if(users == "none"){
+     musers =`@${m.sender.split("@")[0]} is eating with themself!`
+     console.log(musers)
+
+} else {
+const rcpp =`@${users.split("@"[0])}`
+ musers= `@${m.sender.split("@")[0]} is eating with @${users.split("@")[0]} `
+
+console.log(musers)
+}
+        const response = await axios.get(pat.url,  { responseType: 'arraybuffer' })
+        const buffer = Buffer.from(response.data, "utf-8")
+		var fetchedgif = await GIFBufferToVideoBuffer(buffer)
+		Miku.sendMessage(m.chat,{video: fetchedgif, gifPlayback:true,mentions:ment,caption:musers},{quoted:m})
+    } catch (error) {
+        console.log(error);
+    }
+}
+break
+
+case 'hug':{
+
+    if (isBan) return reply(mess.banned)	 			
+    if (isBanChat) return reply(mess.bangc)
+    if (!m.isGroup) return replay(mess.grouponly)	
+	var pat = await fetchJson(`https://api.waifu.pics/sfw/${command}`)
+	try {
+		let messsender = m.sender
+let musers=``
+try {
+users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+
+ ment=[messsender,users]
+} catch {
+	users == "none"
+	 ment=[messsender,m.sender]
+}
+if(users == "none"){
+     musers =`@${m.sender.split("@")[0]} hugged themself!`
+     console.log(musers)
+
+} else {
+const rcpp =`@${users.split("@"[0])}`
+ musers= `@${m.sender.split("@")[0]} hugged @${users.split("@")[0]} `
+
+console.log(musers)
+}
+        const response = await axios.get(pat.url,  { responseType: 'arraybuffer' })
+        const buffer = Buffer.from(response.data, "utf-8")
+		var fetchedgif = await GIFBufferToVideoBuffer(buffer)
+		Miku.sendMessage(m.chat,{video: fetchedgif, gifPlayback:true,mentions:ment,caption:musers},{quoted:m})
+    } catch (error) {
+        console.log(error);
+    }
+}
+break
+
+
+case 'dance':{
+
+    if (isBan) return reply(mess.banned)	 			
+    if (isBanChat) return reply(mess.bangc)
+    if (!m.isGroup) return replay(mess.grouponly)	
+	var pat = await fetchJson(`https://api.waifu.pics/sfw/${command}`)
+	try {
+		let messsender = m.sender
+let musers=``
+try {
+users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+
+ ment=[messsender,users]
+} catch {
+	users == "none"
+	 ment=[messsender,m.sender]
+}
+if(users == "none"){
+     musers =`@${m.sender.split("@")[0]} is dancing alone!!`
+     console.log(musers)
+
+} else {
+const rcpp =`@${users.split("@"[0])}`
+ musers= `@${m.sender.split("@")[0]} is dancing with @${users.split("@")[0]} `
+
+console.log(musers)
+}
+        const response = await axios.get(pat.url,  { responseType: 'arraybuffer' })
+        const buffer = Buffer.from(response.data, "utf-8")
+		var fetchedgif = await GIFBufferToVideoBuffer(buffer)
+		Miku.sendMessage(m.chat,{video: fetchedgif, gifPlayback:true,mentions:ment,caption:musers},{quoted:m})
+    } catch (error) {
+        console.log(error);
+    }
+}
+break
+
+case 'kill': case 'pat': case 'lick': case 'kiss': case 'bite':
+case 'bully': case 'bonk': case 'poke': case 'slap':
+case 'happy':
+case 'cuddle': case 'kick':{
+
+    if (isBan) return reply(mess.banned)	 			
+    if (isBanChat) return reply(mess.bangc)
+    if (!m.isGroup) return replay(mess.grouponly)	
+	var pat = await fetchJson(`https://api.waifu.pics/sfw/${command}`)
+	try {
+		let messsender = m.sender
+let musers=``
+try {
+users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+
+ ment=[messsender,users]
+} catch {
+	users == "none"
+	 ment=[messsender,m.sender]
+}
+if(users == "none"){
+     musers =`@${m.sender.split("@")[0]} ${command}ed themselves!!`
+     console.log(musers)
+
+} else {
+const rcpp =`@${users.split("@"[0])}`
+ musers= `@${m.sender.split("@")[0]} ${command}ed  @${users.split("@")[0]} `
+
+console.log(musers)
+}
+        const response = await axios.get(pat.url,  { responseType: 'arraybuffer' })
+        const buffer = Buffer.from(response.data, "utf-8")
+		var fetchedgif = await GIFBufferToVideoBuffer(buffer)
+		Miku.sendMessage(m.chat,{video: fetchedgif, gifPlayback:true,mentions:ment,caption:musers},{quoted:m})
+    } catch (error) {
+        console.log(error);
+    }
+}
+break
 
 
 
+case 'yeet':
+case 'wink': case 'smile':
+case 'wave': case 'blush': case 'smug': case 'glomp':
+case 'cringe': case 'highfive':{
+
+    if (isBan) return reply(mess.banned)	 			
+    if (isBanChat) return reply(mess.bangc)
+    if (!m.isGroup) return replay(mess.grouponly)	
+	var pat = await fetchJson(`https://api.waifu.pics/sfw/${command}`)
+	try {
+		let messsender = m.sender
+let musers=``
+try {
+users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+
+ ment=[messsender,users]
+} catch {
+	users == "none"
+	 ment=[messsender,m.sender]
+}
+if(users == "none"){
+     musers =`@${m.sender.split("@")[0]} ${command}ed at themself!`
+     console.log(musers)
+
+} else {
+const rcpp =`@${users.split("@"[0])}`
+ musers= `@${m.sender.split("@")[0]} ${command}ed at @${users.split("@")[0]} `
+
+console.log(musers)
+}
+        const response = await axios.get(pat.url,  { responseType: 'arraybuffer' })
+        const buffer = Buffer.from(response.data, "utf-8")
+		var fetchedgif = await GIFBufferToVideoBuffer(buffer)
+		Miku.sendMessage(m.chat,{video: fetchedgif, gifPlayback:true,mentions:ment,caption:musers},{quoted:m})
+    } catch (error) {
+        console.log(error);
+    }
+}
+break
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 case 'megumin':
 if (isBan) return reply(mess.banned)	 			
