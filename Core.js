@@ -4513,8 +4513,7 @@ Here's the list of my Commands💕.
 
  『 General 』
 🔖 profile, help, rules, delete, listgc, listpc, welcome, support, repo
- jWake up to reality! Nothing ever goes as planned in this accursed world. The longer you live, the more you realize that the only things that truly exist in this reality are merely pain, suffering and futility
- 
+
  『 Owner 』
 🔖 self, public, ban, bangroup, bye, join, bye, block, unblock, broadcast 
 
