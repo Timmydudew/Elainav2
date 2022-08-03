@@ -22,7 +22,7 @@ const yogipw = require("tod-api")
 const { color, bgcolor } = require('./lib/color')
 const thiccysapi = require('textmaker-thiccy')
 const toHur = require('@develoka/angka-terbilang-js')
-const mathjs = require('mathjs')
+const mathjs = require('mathjs')media
 const { performance } = require('perf_hooks')
 const { Primbon } = require('scrape-primbon')
 const { EmojiAPI } = require("emoji-api")
@@ -1493,7 +1493,7 @@ if (!isCreator) return replay(mess.botowner)
 if (args[0] === "on") {
 if (isBanChat) return replay('This Group is Already Banned from using me!')
 banchat.push(from)
-replay('This Group has been banned from using me!')
+replay('This Group has been banned from using me!ask  ')
 var groupe = await Miku.groupMetadata(from)
 var members = groupe['participants']
 var mems = []
@@ -1502,7 +1502,7 @@ mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
 Miku.sendMessage(from, {text: `\`\`\`「 Notice 」\`\`\`\n\nThis group is banned from using bot. So, here nobody can use me anymore!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
 } else if (args[0] === "off") {
-if (!isBanChat) return replay('This Group is Already Banned from using me!')
+if (!isBanChat) return replay('This Group is Already Banned from using me! Ask Ronen to unban this group')
 let off = banchat.indexOf(from)
 banchat.splice(off, 1)
 replay('This Group has been *unbanned* from using me!')
@@ -1560,7 +1560,7 @@ case 'nsfwmenu':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
     if (!AntiNsfw) return reply(mess.nonsfw)
-        reply(` *━━━━━━〈  NSFW Menu  〉━━━━━━*\n\n🏮 hentaivideo, blowjobgif, hneko, masturbation, thighs, pussy, panties, orgy, ahegao, ass, bdsm, blowjob, cuckold, ero, gasm, cum, femdom, foot, gangbang, glasses, jahy, trap, blowjobgif, spank, hneko, hwaifu, gasm`)
+        reply(` *━━━━━━〈  NSFW Menu  〉━━━━━━*\n\n💖 hentaivideo, blowjobgif, hneko, masturbation, thighs, pussy, panties, orgy, ahegao, ass, bdsm, blowjob, cuckold, ero, gasm, cum, femdom, foot, gangbang, glasses, jahy, trap, blowjobgif, spank, hneko, hwaifu, gasm`)
     break
 
     
@@ -1621,7 +1621,7 @@ const random=pages[Math.floor(Math.random() * pages.length)]
         const i = Math.floor(Math.random() * wallpaper.length);
 		
 let buttons = [
-            {buttonId: `.wallpaper ${args.join(" ")}`, buttonText: {displayText: '>>'}, type: 1}
+            {buttonId: `.wallpaper ${args.join(" ")}`, buttonText: {displayText: '➡️'}, type: 1}
         ]
         let buttonMessage = {
             image: {url:wallpaper[i].image},
@@ -1669,7 +1669,7 @@ case 'quotesanime': case 'quoteanime': case 'animequote': case 'animequotes':{
         let anu = await quotesAnime()
         result = anu[Math.floor(Math.random() * anu.length)]
         let buttons = [
-            {buttonId: `.quotesanime`, buttonText: {displayText: '>>'}, type: 1}
+            {buttonId: `.quotesanime`, buttonText: {displayText: '➡️'}, type: 1}
         ]
         let buttonMessage = {
             text: `_${result.quotes}_\n\nBy '${result.karakter}', ${result.anime}\n\n- ${result.up_at}`,
@@ -1774,7 +1774,7 @@ case 'coffee': case 'kopi': {
         if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
                 let buttons = [
-                        {buttonId: `.coffee`, buttonText: {displayText: '>>'}, type: 1}
+                        {buttonId: `.coffee`, buttonText: {displayText: '➡️'}, type: 1}
                     ]
                     let buttonMessage = {
                         image: { url: 'https://coffee.alexflipnote.dev/random' },
@@ -2609,7 +2609,7 @@ if (isBanChat) return reply(mess.bangc)
      if (!vcc) return replay("Link invalid!")
      if (isCreator) {
      await Miku.groupAcceptInvite(vcc).then(async(res) => replay(jsonformat(res))).catch(_ => _)
-     replay("Succes!")
+     replay("Ok Joined✨ Thanks for the link Ronen 💖!")
      } else {
      Miku.query({
      tag: "iq",
@@ -2756,7 +2756,7 @@ case 'public': {
  if (isBanChat) return reply(mess.bangc)
  if (!isCreator) return reply(mess.botowner)
  Miku.public = false
- reply('Only Owner can use me now!')
+ reply('Only Ronen can use me now!')
  Miku.setStatus(`Mode : Self`)
  }
  break
