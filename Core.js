@@ -4507,58 +4507,45 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 *DEVELOPED AND REVERSE ENGINEERED BY RONEN✨*
 
 Here's the list of my Commands💕.
- 
 
  『 General 』
 🔖 profile, help, rules, delete, listgc, listpc, welcome, support, repo
 
  『 Owner 』
 🔖 self, public, ban, bangroup, bye, join, bye, block, unblock, broadcast 
-
  
  『 Group 』
 🔖 promote, demote, revoke, remove, tagall, hidetag, groupsetting, grouplink, setgcpp, setname, setdesc, group
 
-
  『 Anti Link 』
 🔖 antilinkgc, antilinktg, antilinktt, antilinkytch, antilinkytvid, antilinkig, antilinkfb, antilinktwit, antilinkall, antiwame
 
-
  『 Searches 』
 🔖 play, song, yts, lyrics, google, playstore, gimage, pinterest, image, movie, wallpaper, searchgc, happymod, wikimedia, ringtone, anime, animestory, manga, ringtone   
-
  
  『 Convert 』
 🔖 sticker, toimg, tovideo, togif , steal, stickermeme, emojimix, tourl, tomp3, toaudio
 
-
  『 Audio 』
 🔖 bass, tempo, blown, deep, earrape, fast, fat, nightcore, reverse, robot, slow, squirrel
 
-
  『 Reactions 』
 🔖 cuddle, hug, kiss, pat, smug, slap
-
  
  『 Downloader 』
 🔖 play, ytmp3, ytmp4, ytvideo, mediafire, instagram, igtv, facebook, fbmp3, twitter, twittermp3, tiktok, tiktokaudio, tiktoknowm, mediafire  
 
- 
  『 Weeb 』
 🔖 waifu, loli, neko, ppcouple, feed, foxgirl, feed, meow, tickle, wallpaper, coffee, animenom, waifu3, neko2, feed, tickle, migumin, awoo, animewallpaper2, anime, manga
-
  
  『 Informative 』
 🔖 animequote, quote, covid, earthquake, wiki
-
  
  『 Others 』
 🔖 stickermeme, quotes, darkjoke 
-
  
  『 Fun 』
 🔖 truth, dare, couple, soulmate, handsomecheck, beautifulcheck, awesomecheck, greatcheck, gaycheck, cutecheck, lesbiancheck, hornycheck, prettycheck, lovelycheck, uglycheck, charactercheck
-
  
  『 Essentials 』
 🔖 translate, fliptext, toletter
@@ -4568,9 +4555,6 @@ Here's the list of my Commands💕.
 💖 Type " *${prefix}nsfw* " then enable NSFW (Admin only!) 
 
 💖 Then type " *${prefix}nsfwmenu* " to get full list of NSFW commands.
-
-
-
 
 
  『  *${global.BotName}*  』
