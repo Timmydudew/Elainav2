@@ -1548,7 +1548,32 @@ break
 
 case 'reaction': case 'r':
     
-    reply(`*My developer's group:* https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO`)
+    const reaction = ['cry',
+                'kiss',
+                'bully',
+                'hug',
+                'lick',
+                'cuddle',
+                'pat',
+                'smug',
+                'highfive',
+                'bonk',
+                'yeet',
+                'blush',
+                'wave',
+                'smile',
+                'handhold',
+                'nom',
+                'bite',
+                'glomp',
+                'kill',
+                'slap',
+                'cringe',
+                'kick',
+                'wink',
+                'happy',
+                'poke',
+                'dance']
     break
 
 case 'repo': case 'botrepo':
