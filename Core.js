@@ -1420,7 +1420,7 @@ switch(command) {
     case 'rules': case 'rule': {
         if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
-    teks = `*${global.BotName}*\n\n*----⚠️[Rules]⚠️----*\n\n❌ *RULES SHOULD BE FOLLOWED STRICTLY* 🚫\n*>>>* use *.support* to get the Official group link in your dm\n*--->* Don't chat in private bot can't chat in Pm\n*--->* If you want to add Elaina V2 in your group then contact the owner by owner/mods \n*--->* Dont use wrong command, use the command given in the *help list* \n*--->* Dont spam the bot with commands if the bot is not responding, it means the bot is maybe offline or facing internet issue. \n*--->* Dont Dm the bot \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BAN SOON* 🚫 `
+    teks = `*${global.BotName}*\n\n*----⚠️[Rules]⚠️----*\n\n❌ *RULES SHOULD BE FOLLOWED STRICTLY* 🚫\n*--->* Don't chat in private bot will block you\n*--->* If you want to add Elaina V2 in your group then contact the owner by owner/mods \n*--->* Dont use wrong command, use the command given in the *help list* \n*--->* Dont spam the bot with commands if the bot is not responding, it means the bot is maybe offline or facing internet issue. \n*--->* Dont Dm the bot \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BAN SOON* 🚫 `
     let buttons = [
     {buttonId: `.menu`, buttonText: {displayText: '🎗️Menu🎗️'}, type: 1}
     ]
@@ -4792,7 +4792,6 @@ Here's the list of my Commands💕.
  💖 To use any of these commands type 
  " *${prefix}<Command name>* ".
  
- 💖 To get Support Group link type " *${prefix}support* ".
 
  💖 Type " *${prefix}help* " to get full command list.`
      
