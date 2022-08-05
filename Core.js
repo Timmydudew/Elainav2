@@ -3285,7 +3285,7 @@ case 'ytdl2': case 'yt2': case 'youtube2':{
 if (!args[0]) return reply(mess.nolink)
 try {
 hx.youtube(args[0]).then(async(res) => {
-textyt = `「 _Miku Youtube Downloader_ 」
+textyt = `「 _Elaina Youtube Downloader_ 」
 Title : ${res.title}
 Size : ${res.size}
 Quality : ${res.quality}
@@ -3346,14 +3346,14 @@ case 'music': case 'play': case 'song': case 'ytplay': {
  if (!args[0]) return reply(mess.nolink)
  try {
  hx.youtube(args[0]).then(async(res) => {
- textyt = `「  _Miku Youtube Downloader_  」
+ textyt = `「  _Elaina Youtube Downloader_  」
 *Title :* ${res.title}
 *Size :* ${res.size}
 *Quality :* ${res.quality}
 *Select video or audio and wait a while*`
  let buttons = [
- {buttonId: `.ytvd ${res.link}`, buttonText: {displayText: '► Video'}, type: 1},
- {buttonId: `.ytad ${res.mp3}`, buttonText: {displayText: '♫ Audio'}, type: 1}
+ {buttonId: `.ytvd ${res.link}`, buttonText: {displayText: '🎥 Video'}, type: 1},
+ {buttonId: `.ytad ${res.mp3}`, buttonText: {displayText: '🎵 Audio'}, type: 1}
  ]
  let buttonMessage = {
  image: {url:res.thumb},
