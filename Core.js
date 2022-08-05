@@ -3474,7 +3474,7 @@ case 'pinterest': case 'pin': {
  hx.pinterest(args.join(" ")).then(async(res) => {
  imgnyee = res[Math.floor(Math.random() * res.length)]
  let buttons = [
- {buttonId: `.pinterest ${args.join(" ")}`, buttonText: {displayText: '>>'}, type: 1}
+ {buttonId: `.pinterest ${args.join(" ")}`, buttonText: {displayText: '➡️'}, type: 1}
  ]
  let buttonMessage = {
  image: { url: imgnyee },
@@ -3606,7 +3606,7 @@ let member = participants.map(u => u.id)
 let orang = member[Math.floor(Math.random() * member.length)]
 let jodoh = member[Math.floor(Math.random() * member.length)]
 let jawab = `@${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}
-Ohh i see 👀💖...`
+What's going on between you two hehe👀💖...`
 let menst = [orang, jodoh]
 let buttons = [
 { buttonId: '❤️', buttonText: { displayText: 'Congratulations ❤️' }, type: 1 }
