@@ -4819,7 +4819,7 @@ case '':
       mikupic ='https://wallpapercave.com/wp/wp9610454.jpg'
     
         
- const needhelpmenu = `You are using wrong command~ ${pushname}? Type *${prefix}help* to get my command list.`
+ const needhelpmenu = `You are using wrong command ${pushname}~. Type *${prefix}help* to get my command list.`
      
          let butRun = [
                 {buttonId: `.help`, buttonText: {displayText: 'Help'}, type: 1}
