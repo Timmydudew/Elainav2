@@ -247,7 +247,7 @@ footer: `${global.BotName}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title: `${ownername}`,
+title: `${OwnerName}`,
 body: `Bye! my friend, take care.`,
 mediaType:2,
 thumbnail: XeonLft,
