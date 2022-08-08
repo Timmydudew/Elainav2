@@ -90,7 +90,7 @@ return list[Math.floor(list.length * Math.random())]
 
 
 
-Miku.ev.on('group-participants.update', async (anu) => {
+/*Miku.ev.on('group-participants.update', async (anu) => {
         console.log(anu)
        
         try {
@@ -164,8 +164,104 @@ let Mikubuttons = [
             } catch (err) {
                 console.log(err)
             }
+    })*/
+   
+	let metadata = await Miku.groupMetadata(anu.id)
+memb = metadata.participants.length
+Wlcm = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/d460e086f9f9bf6b04e17.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
+Lft = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/d460e086f9f9bf6b04e17.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
+                if (anu.action == 'add') {
+                const buffer = await getBuffer(ppuser)
+                let userName = num
+                const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
+	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+	            const xmembers = metadata.participants.length
+                let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: XeonWlcm, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+                body = `┌─❖
+│「 𝗛𝗶 👋 」
+└┬❖ 「 @${WAuserName.split("@")[0]}  」
+   │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
+   │✑  ${metadata.subject}
+   
+   │✑ *GROUP DESCRIPTION*
+   │✑  ${metadata.desc}
+   └───────────────┈ ⳹`
+      //if you copy the code value,
+   //dont forget to put my name(Xeon) as credit
+   //you fail to put, i sue you for sure!
+let buttons = [
+{buttonId: `wkwwk`, buttonText: {displayText: 'Welcome 💐'}, type: 1}
+]
+let buttonMessage = {
+document: fs.readFileSync('./assets/mikupic2'),
+mimetype: docs,
+jpegThumbnail:Wlcm,
+mentions: [num],
+fileName: `${metadata.subject}`,
+fileLength: 99999999999999,
+caption: xeonbody,
+footer: `${global.BotName}`,
+buttons: buttons,
+headerType: 4,
+contextInfo:{externalAdReply:{
+title: `${ownername}`,
+body: `Don't forget to read group description`,
+mediaType:2,
+thumbnail: XeonWlcm,
+sourceUrl: `${websitex}`,
+mediaUrl: `${websitex}`
+}}
+}
+XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
+                } else if (anu.action == 'remove') {
+                	const xeonbuffer = await getBuffer(ppuser)
+                    const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
+	                const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+                	let xeonName = num
+                    const xeonmembers = metadata.participants.length
+                    let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: xeonbuffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+                    xeonbody = `┌─❖
+│「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
+└┬❖ 「 @${WAuserName.split("@")[0]}  」
+   │✑  𝗟𝗲𝗳𝘁 
+   │✑ ${metadata.subject}
+   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
+   
+   │✑  𝗧𝗶𝗺𝗲 : 
+   └───────────────┈ ⳹`
+      //if you copy the code value,
+   //dont forget to put my name(Xeon) as credit
+   //you fail to put, i sue you for sure!
+let buttons = [
+{buttonId: `wkwkwk`, buttonText: {displayText: 'Sayonara 🥀'}, type: 1}
+]
+let buttonMessage = {
+document: fs.readFileSync('./assets/mikupic3'),
+mimetype: docs,
+jpegThumbnail:XeonLft,
+mentions: [num],
+fileName: `${metadata.subject}`,
+fileLength: 99999999999999,
+caption: xeonbody,
+footer: `${global.BotName}`,
+buttons: buttons,
+headerType: 4,
+contextInfo:{externalAdReply:{
+title: `${ownername}`,
+body: `Bye! my friend, take care.`,
+mediaType:2,
+thumbnail: XeonLft,
+sourceUrl: `${websitex}`,
+mediaUrl: `${websitex}`
+}}
+}
+XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
+                }
+            }
+        } catch (err) {
+            console.log(err)
+        }
     })
-    
 
     Miku.decodeJid = (jid) => {
         if (!jid) return jid
