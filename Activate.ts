@@ -1,4 +1,4 @@
-import MessageHandler from '../../Handlers/MessageHandler'
+import MessageHandler from '../../MessageHandler'
 import BaseCommand from '../../lib/BaseCommand'
 import WAClient, { toggleableGroupActions } from '../../lib/WAClient'
 import { IParsedArgs, ISimplifiedMessage } from '../../typings'
