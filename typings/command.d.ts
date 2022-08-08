@@ -1,4 +1,4 @@
-import MessageHandler from '../Handlers/MessageHandler'
+import MessageHandler from '../MessageHandler'
 import { WAClient } from '../lib/WAClient'
 import { IParsedArgs, ISimplifiedMessage } from "./";
 export interface ICommand {
