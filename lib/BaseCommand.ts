@@ -1,4 +1,4 @@
-import MessageHandler from '../Handlers/MessageHandler'
+import MessageHandler from '../MessageHandler'
 import { ICommand, IParsedArgs, ISimplifiedMessage } from '../typings'
 import WAClient from './WAClient'
 
