@@ -193,7 +193,7 @@ let buttons = [
 {buttonId: `wkwwk`, buttonText: {displayText: 'Welcome 💐'}, type: 1}
 ]
 let buttonMessage = {
-document: fs.readFileSync('./assets/pic2.jpg),
+document: fs.readFileSync('./Assets/pic6.jpg),
 mimetype: docs,
 jpegThumbnail:Wlcm,
 mentions: [num],
@@ -236,7 +236,7 @@ let buttons = [
 {buttonId: `wkwkwk`, buttonText: {displayText: 'Sayonara 🥀'}, type: 1}
 ]
 let buttonMessage = {
-document: fs.readFileSync('./assets/pic3.jpg'),
+document: fs.readFileSync('./Assets/pic10.jpg'),
 mimetype: docs,
 jpegThumbnail:XeonLft,
 mentions: [num],
