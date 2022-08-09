@@ -7,18 +7,18 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['15069751205']
-global.OwnerNumber = ['15069751205']
-global.ownertag = ['15069751205']
+global.Owner = ['2348050261876']
+global.OwnerNumber = ['2348050261876']
+global.ownertag = ['2348050261876']
 global.BotName = "Elaina V2"
-global.packname = "Elaina bot"
-global.author = "By: Ronen"
+global.packname = "Timmy"
+global.author = "By: Timmy"
 global.OwnerName = "Ronen"
 global.BotSourceCode = "https://github.com/Ronen6999/Elainav2"
 global.SupportGroupLink = "https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO"
 global.sessionName = "session"
 global.prefa = ['.']
-global.location = "Assam, India"
+global.location = "PortHarcourt, Nigeria"
 global.reactmoji = "❤️"
 global.themeemoji = "💖"
 global.vidmenu = { url: 'https://c.tenor.com/36P-Xu4XxRMAAAPo/elaina-anime.mp4' }
